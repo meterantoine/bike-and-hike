@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		674464722321A74D007E2517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674464712321A74D007E2517 /* AppDelegate.swift */; };
+		674464742321A74D007E2517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674464732321A74D007E2517 /* ViewController.swift */; };
+		674464772321A74D007E2517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674464752321A74D007E2517 /* Main.storyboard */; };
+		674464792321A74F007E2517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 674464782321A74F007E2517 /* Assets.xcassets */; };
+		6744647C2321A74F007E2517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6744647A2321A74F007E2517 /* LaunchScreen.storyboard */; };
+		67BD96692321F3AE004E42BA /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD96682321F3AE004E42BA /* ServicesTableViewController.swift */; };
+		67BD966B2321F418004E42BA /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD966A2321F418004E42BA /* ServicesTableViewCell.swift */; };
+		67BD966F23221573004E42BA /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD966E23221573004E42BA /* ServicesViewController.swift */; };
+		67BD9672232562EA004E42BA /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD9671232562EA004E42BA /* AboutusViewController.swift */; };
+		67BD967523257422004E42BA /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD967423257422004E42BA /* ContactUsViewController.swift */; };
+		67BD96782325751B004E42BA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BD96772325751B004E42BA /* MapKit.framework */; };
+		67BD967C2328A494004E42BA /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD967B2328A494004E42BA /* EmailViewController.swift */; };
+		67BD967E2328B9BC004E42BA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BD967D2328B9BC004E42BA /* MessageUI.framework */; };
+		67BD96812329CB2B004E42BA /* SocialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD96802329CB2B004E42BA /* SocialTableViewController.swift */; };
+		67BD96832329CB70004E42BA /* SocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD96822329CB70004E42BA /* SocialTableViewCell.swift */; };
+		67BD96852329CD05004E42BA /* socialList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67BD96842329CD05004E42BA /* socialList.plist */; };
+		67BD96872329F5D9004E42BA /* socialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD96862329F5D9004E42BA /* socialViewController.swift */; };
+		67BD96892329F730004E42BA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BD96882329F730004E42BA /* WebKit.framework */; };
+		67BD968D232AD953004E42BA /* serviceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67BD968C232AD953004E42BA /* serviceList.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6744646E2321A74D007E2517 /* Bike & Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bike & Hike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		674464712321A74D007E2517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		674464732321A74D007E2517 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		674464762321A74D007E2517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		674464782321A74F007E2517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6744647B2321A74F007E2517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6744647D2321A74F007E2517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BD96682321F3AE004E42BA /* ServicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		67BD966A2321F418004E42BA /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
+		67BD966E23221573004E42BA /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		67BD9671232562EA004E42BA /* AboutusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		67BD967423257422004E42BA /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		67BD96772325751B004E42BA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		67BD967B2328A494004E42BA /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		67BD967D2328B9BC004E42BA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		67BD96802329CB2B004E42BA /* SocialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewController.swift; sourceTree = "<group>"; };
+		67BD96822329CB70004E42BA /* SocialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTableViewCell.swift; sourceTree = "<group>"; };
+		67BD96842329CD05004E42BA /* socialList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = socialList.plist; sourceTree = "<group>"; };
+		67BD96862329F5D9004E42BA /* socialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = socialViewController.swift; sourceTree = "<group>"; };
+		67BD96882329F730004E42BA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		67BD968C232AD953004E42BA /* serviceList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = serviceList.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6744646B2321A74D007E2517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BD96892329F730004E42BA /* WebKit.framework in Frameworks */,
+				67BD967E2328B9BC004E42BA /* MessageUI.framework in Frameworks */,
+				67BD96782325751B004E42BA /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		674464652321A74D007E2517 = {
+			isa = PBXGroup;
+			children = (
+				674464702321A74D007E2517 /* Bike & Hike */,
+				6744646F2321A74D007E2517 /* Products */,
+				67BD96762325751A004E42BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6744646F2321A74D007E2517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6744646E2321A74D007E2517 /* Bike & Hike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		674464702321A74D007E2517 /* Bike & Hike */ = {
+			isa = PBXGroup;
+			children = (
+				674464712321A74D007E2517 /* AppDelegate.swift */,
+				674464732321A74D007E2517 /* ViewController.swift */,
+				67BD96672321F324004E42BA /* Services */,
+				674464752321A74D007E2517 /* Main.storyboard */,
+				674464782321A74F007E2517 /* Assets.xcassets */,
+				6744647A2321A74F007E2517 /* LaunchScreen.storyboard */,
+				6744647D2321A74F007E2517 /* Info.plist */,
+			);
+			path = "Bike & Hike";
+			sourceTree = "<group>";
+		};
+		67BD96672321F324004E42BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				67BD96682321F3AE004E42BA /* ServicesTableViewController.swift */,
+				67BD966A2321F418004E42BA /* ServicesTableViewCell.swift */,
+				67BD966E23221573004E42BA /* ServicesViewController.swift */,
+				67BD968C232AD953004E42BA /* serviceList.plist */,
+				67BD9670232562AB004E42BA /* About Us */,
+				67BD9673232573CB004E42BA /* Contact Us */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		67BD9670232562AB004E42BA /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				67BD9671232562EA004E42BA /* AboutusViewController.swift */,
+			);
+			path = "About Us";
+			sourceTree = "<group>";
+		};
+		67BD9673232573CB004E42BA /* Contact Us */ = {
+			isa = PBXGroup;
+			children = (
+				67BD967423257422004E42BA /* ContactUsViewController.swift */,
+				67BD967B2328A494004E42BA /* EmailViewController.swift */,
+				67BD967F2329CAEB004E42BA /* Social */,
+			);
+			path = "Contact Us";
+			sourceTree = "<group>";
+		};
+		67BD96762325751A004E42BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67BD96882329F730004E42BA /* WebKit.framework */,
+				67BD967D2328B9BC004E42BA /* MessageUI.framework */,
+				67BD96772325751B004E42BA /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67BD967F2329CAEB004E42BA /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				67BD96802329CB2B004E42BA /* SocialTableViewController.swift */,
+				67BD96822329CB70004E42BA /* SocialTableViewCell.swift */,
+				67BD96862329F5D9004E42BA /* socialViewController.swift */,
+				67BD96842329CD05004E42BA /* socialList.plist */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6744646D2321A74D007E2517 /* Bike & Hike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 674464802321A74F007E2517 /* Build configuration list for PBXNativeTarget "Bike & Hike" */;
+			buildPhases = (
+				6744646A2321A74D007E2517 /* Sources */,
+				6744646B2321A74D007E2517 /* Frameworks */,
+				6744646C2321A74D007E2517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bike & Hike";
+			productName = "Bike & Hike";
+			productReference = 6744646E2321A74D007E2517 /* Bike & Hike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		674464662321A74D007E2517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Antoine Perry";
+				TargetAttributes = {
+					6744646D2321A74D007E2517 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 674464692321A74D007E2517 /* Build configuration list for PBXProject "Bike & Hike" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 674464652321A74D007E2517;
+			productRefGroup = 6744646F2321A74D007E2517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6744646D2321A74D007E2517 /* Bike & Hike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6744646C2321A74D007E2517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BD96852329CD05004E42BA /* socialList.plist in Resources */,
+				67BD968D232AD953004E42BA /* serviceList.plist in Resources */,
+				6744647C2321A74F007E2517 /* LaunchScreen.storyboard in Resources */,
+				674464792321A74F007E2517 /* Assets.xcassets in Resources */,
+				674464772321A74D007E2517 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6744646A2321A74D007E2517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674464742321A74D007E2517 /* ViewController.swift in Sources */,
+				67BD966B2321F418004E42BA /* ServicesTableViewCell.swift in Sources */,
+				67BD96872329F5D9004E42BA /* socialViewController.swift in Sources */,
+				67BD96832329CB70004E42BA /* SocialTableViewCell.swift in Sources */,
+				67BD967523257422004E42BA /* ContactUsViewController.swift in Sources */,
+				67BD967C2328A494004E42BA /* EmailViewController.swift in Sources */,
+				67BD96812329CB2B004E42BA /* SocialTableViewController.swift in Sources */,
+				67BD96692321F3AE004E42BA /* ServicesTableViewController.swift in Sources */,
+				67BD966F23221573004E42BA /* ServicesViewController.swift in Sources */,
+				67BD9672232562EA004E42BA /* AboutusViewController.swift in Sources */,
+				674464722321A74D007E2517 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		674464752321A74D007E2517 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				674464762321A74D007E2517 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6744647A2321A74F007E2517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6744647B2321A74F007E2517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6744647E2321A74F007E2517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6744647F2321A74F007E2517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		674464812321A74F007E2517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H8VGPKG6U;
+				INFOPLIST_FILE = "Bike & Hike/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AntoinePerry.Bike-Hike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		674464822321A74F007E2517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H8VGPKG6U;
+				INFOPLIST_FILE = "Bike & Hike/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AntoinePerry.Bike-Hike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		674464692321A74D007E2517 /* Build configuration list for PBXProject "Bike & Hike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6744647E2321A74F007E2517 /* Debug */,
+				6744647F2321A74F007E2517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		674464802321A74F007E2517 /* Build configuration list for PBXNativeTarget "Bike & Hike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				674464812321A74F007E2517 /* Debug */,
+				674464822321A74F007E2517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 674464662321A74D007E2517 /* Project object */;
+}

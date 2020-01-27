@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Tune-Up Packages</string>
+		<key>Description</key>
+		<string>1. Geared Bike Tune-Up
+2. BMX or Single Speed tune-up</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Wheels</string>
+		<key>Description</key>
+		<string>1. Tire or Tube Replacement
+2. Hub Adjust
+3. Hub Overhaul
+4. Wheel Truing
+5. Spoke Replacement (Includes wheel truing, does not include spokes)
+6. Remove/Install Cassette on Bike
+7. Wheel Replacement</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Drivetrain</string>
+		<key>Description</key>
+		<string>1. Install Crank
+2. Install Chainring/Rockring
+3. Repair/Replace Chain</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Derailleurs</string>
+		<key>Description</key>
+		<string>1. Adjust (Per Der.)
+2. Install Derailleur
+3. Install Shifter Mtn./ Down tube shifters
+4. Install Shifter STI/Bar end w/bar wrap
+5. Replace Hanger
+6. Align Hanger</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Brakes</string>
+		<key>Description</key>
+		<string>1. Adjustments
+2. Install Brake Levers
+3. Install Brake Pads
+4. Adjust/Bleed Hydraulic
+5. Other Disc Brakes Service</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Headsets</string>
+		<key>Description</key>
+		<string>1. Adjust
+2. Install
+3. Replace
+4. Overhaul</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Bottom Brackets</string>
+		<key>Description</key>
+		<string>1. Adjust
+2. Install (Bare Frame)
+3. Replace
+4. Overhaul
+5. Chase Threads (Bare Frame)
+6. Remove Seized</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Forks</string>
+		<key>Description</key>
+		<string>1. Install
+2. Cut Steerer Tube
+3. Seat Headset Race
+4. Suspension fork work varies by brand and need. Cost of repair will be done by quote only. Often it is more effective to return the fork to the manufacturer.</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Bars and Stems</string>
+		<key>Description</key>
+		<string>1. Install Bars Road
+2. Install Bars Mtn.
+3. Install Stem Front Loader
+4. Install Stem Normal
+5. Install Bar Ends
+6. Install Grips
+7. Wrap Road Bars</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Accessories</string>
+		<key>Description</key>
+		<string>1. Install Computer (Basic)
+2. Install Computer (w/Cadence)
+3. Install Flight Deck/Ergo Brain (Includes bar wrapping)
+4. Install Fenders
+5. Install Rack/Child Seat
+6. Install Training Wheels</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Exercise Equipment</string>
+		<key>Description</key>
+		<string>1. Repairs (In-Store)
+2. Repairs (At Home)
+3. Airdyne Tune-up</string>
+	</dict>
+</array>
+</plist>

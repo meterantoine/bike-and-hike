@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Facebook</string>
+		<key>Image</key>
+		<string>SocialIcon1</string>
+		<key>Link</key>
+		<string>https://www.facebook.com/bikeandhike/</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Website</string>
+		<key>Image</key>
+		<string>SocialIcon6</string>
+		<key>Link</key>
+		<string>http://www.bikeandhikeweb.com</string>
+	</dict>
+</array>
+</plist>
