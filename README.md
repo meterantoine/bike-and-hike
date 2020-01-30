@@ -30,7 +30,7 @@ MapKit is used to show the user where the stores are located and by using maps i
 #### Technologies
 
 - Core Data
-- Mapkit
+- MapKit
 
 [Back To The Top](#read-me-template)
 
