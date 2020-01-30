@@ -48,11 +48,10 @@ You can download a zip or you can clone the project as well and just upload it t
 
 ---
 
-## References
+#### References
 
-```html
-    Understanding tableviews and the processes that go along with that like how to pass data from one viewcontroller to another will help you out alot. Know how to make multiple view contorllers and embedding them in a navigation controller. Also simple knowlegde of UI/UX design and auot layout constraints will take you a long way in this project
-```
+Understanding tableviews and the processes that go along with them, know how to pass data from one view controller to another will help you out alot. Know how to make multiple view contorllers and embedding them in a navigation controller. Also simple knowlegde of UI/UX design and auto layout constraints will take you out in the long run as will in this project.
+
 [Back To The Top](#read-me-template)
 
 ---
